@@ -155,4 +155,4 @@ class COVID19(object):
         :return: A dictionary with case information for the specified location.
         """
         data = self._request("/v2/locations/" + str(country_id))
-        return data["location"]
+        return data["location"]ggfgfg
